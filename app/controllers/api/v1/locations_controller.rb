@@ -1,4 +1,4 @@
-class Api::V1::LocationsController < ApplicationController
+class Api::V1::LocationsController < ApiController
   def show
     @location = Location.find(params[:id])
   end
